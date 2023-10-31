@@ -31,14 +31,5 @@ SplitTypes.forEach((char, i) => {
 
   // GSAP
   gsap.from(text.chars, {
-    scrollTrigger: {
-      trigger: char,
-      start: "-100% center",
-      end: "100% center ",
-      scrub: true,
-      markers: true,
-    },
-    opacity: 0.2,
-    stagger: 0.1,
   });
 });

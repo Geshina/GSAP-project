@@ -1,23 +1,151 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+// Devlog
+// imported fonts must be downloaded for compliences also check cdns
 
-::-webkit-scrollbar {
-  display: none;
-}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
-body {
-  background-color: rgb(24, 24, 24);
+// Variables
+
+$accent: #d1b500;
+$surface-primary: #ffffff;
+$surface-secondary: #f6f5ed;
+$surface-inverse: hsla(0, 0, 10%, 100%);
+$text-primary: hsla(0, 0%, 0%, 85%);
+$text-secondary: hsla(0, 0%, 0%, 60%);
+$text-inverse-primary: hsla(0, 0, 100%, 85%);
+$text-inverse-secondary: hsla(0, 0, 100%, 60%);
+
+// Font Stack
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   font-family: "Poppins", sans-serif;
-  color: white;
-  margin: 0px;
+  font-weight: 500;
+}
+h1 {
+  font-size: 4rem;
+  line-height: 4.5rem;
+  font-weight: 600;
+}
+h2 {
+  font-size: 3.5rem;
+  line-height: 4rem;
+}
+h3 {
+  font-size: 3rem;
+  line-height: 3.5rem;
+}
+h4 {
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
+h5 {
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+h6 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
 }
 
+// Structure
+body {
+  background-color: $surface-primary;
+}
 section {
+  width: 90vw;
+  margin: 0px auto;
+}
+.fold {
   height: 100vh;
-  padding: 0 clamp(4rem, 12vw, 20rem);
+  background-color: $surface-inverse;
+}
+.grid {
   display: grid;
-  place-content: center;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 2rem;
+}
+.grid > * {
+  grid-column: span 12;
+}
+.span-6 {
+  grid-column: span 6;
+}
+.span-4 {
+  grid-column: span 4;
+}
+.span-3 {
+  grid-column: span 3;
+}
+.flex {
+  display: flex;
+}
+.flex-vert {
+  display: flex;
+  flex-direction: column;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.align-center {
+  align-items: center;
+}
+.gap-sm {
+  gap: 1rem;
+}
+.gap-md {
+  gap: 2rem;
+}
+.padd-vert-sm {
+  padding-block: 1rem;
+}
+.padd-vert-md {
+  padding-block: 2rem;
+}
 
-  &:nth-of-type(2) {
-    background-color: yellowgreen;
+// Color
+.primary {
+  background-color: $surface-primary;
+  color: $text-primary;
+  p {
+    color: $text-secondary;
+  }
+}
+.secondary {
+  background-color: $surface-secondary;
+  color: $text-primary;
+  p {
+    color: $text-secondary;
+  }
+}
+.inverse {
+  background-color: $surface-inverse;
+  color: $text-inverse-primary;
+  p {
+    color: $text-inverse-secondary;
+    font-weight: 300;
+  }
+}
+
+// Elements
+.top-bar {
+  padding: 1rem 0px;
+}
+button {
+  padding: 0.5rem 2rem;
+  border-radius: 1px;
+  border: none;
+  background-color: $accent;
+  p {
+    font-weight: 500 !important;
+    color: $text-inverse-primary !important;
   }
 }
