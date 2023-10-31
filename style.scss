@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background-color: rgb(24, 24, 24);
+  font-family: "Poppins", sans-serif;
+  color: white;
+  margin: 0px;
+}
+
+section {
+  height: 100vh;
+  padding: 0 clamp(4rem, 12vw, 20rem);
+  display: grid;
+  place-content: center;
+
+  &:nth-of-type(2) {
+    background-color: yellowgreen;
+  }
+}
