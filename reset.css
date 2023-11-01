@@ -16,8 +16,10 @@
   4. Improve text rendering
 */
 body {
-  line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+}
+::-webkit-scrollbar{
+  display: none;
 }
 /*
   5. Improve media defaults

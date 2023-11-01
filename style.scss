@@ -8,11 +8,11 @@
 $accent: #d1b500;
 $surface-primary: #ffffff;
 $surface-secondary: #f6f5ed;
-$surface-inverse: hsla(0, 0, 10%, 100%);
-$text-primary: hsla(0, 0%, 0%, 85%);
-$text-secondary: hsla(0, 0%, 0%, 60%);
-$text-inverse-primary: hsla(0, 0, 100%, 85%);
-$text-inverse-secondary: hsla(0, 0, 100%, 60%);
+$surface-inverse: hsla(0, 0%, 10%, 1);
+$text-primary: hsla(0, 0%, 0%, 0.85);
+$text-secondary: hsla(0, 0%, 0%,0.6);
+$text-inverse-primary: hsla(0, 0%, 100%, 0.85);
+$text-inverse-secondary: hsla(0, 0%, 100%, 0.6);
 
 // Font Stack
 h1,
@@ -57,17 +57,6 @@ p {
 }
 
 // Structure
-body {
-  background-color: $surface-primary;
-}
-section {
-  width: 90vw;
-  margin: 0px auto;
-}
-.fold {
-  height: 100vh;
-  background-color: $surface-inverse;
-}
 .grid {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -84,6 +73,9 @@ section {
 }
 .span-3 {
   grid-column: span 3;
+}
+.span-2 {
+  grid-column: span 2;
 }
 .flex {
   display: flex;
@@ -109,6 +101,9 @@ section {
 }
 .padd-vert-md {
   padding-block: 2rem;
+}
+.padd-vert-lg {
+  padding-block: 3rem;
 }
 
 // Color
@@ -136,8 +131,19 @@ section {
 }
 
 // Elements
+body {
+  background-color: $surface-primary;
+}
+section {
+  width: 90vw;
+  margin: 0px auto;
+}
 .top-bar {
-  padding: 1rem 0px;
+  height: 6vh;
+}
+.fold {
+  height: 94vh;
+  background-color: $surface-inverse;
 }
 button {
   padding: 0.5rem 2rem;
@@ -149,3 +155,4 @@ button {
     color: $text-inverse-primary !important;
   }
 }
+// restructure css folders
