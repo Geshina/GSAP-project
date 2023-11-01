@@ -1,0 +1,26 @@
+@use "scss/var.scss" as *;
+
+body {
+  background-color: $surface-primary;
+}
+section {
+  width: 90vw;
+  margin: 0px auto;
+}
+.top-bar {
+  height: 5vh;
+}
+.fold {
+  height: 95vh;
+  background-color: $surface-primary;
+}
+button {
+  padding: 0.5rem 2rem;
+  border-radius: 1px;
+  border: none;
+  background-color: $accent;
+  p {
+    font-weight: 500 !important;
+    color: $text-primary !important;
+  }
+}

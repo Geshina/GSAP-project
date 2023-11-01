@@ -1,0 +1,18 @@
+@use "scss/var.scss" as *;
+
+.gap-sm {
+  gap: 1rem;
+}
+.gap-md {
+  gap: 2rem;
+}
+
+.padd-vert-sm {
+  padding-block: 1rem;
+}
+.padd-vert-md {
+  padding-block: 2rem;
+}
+.padd-vert-lg {
+  padding-block: 3rem;
+}

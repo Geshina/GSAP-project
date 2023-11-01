@@ -1,0 +1,75 @@
+// Font Import
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+$accent: hsl(52, 100%, 41%);
+$surface-primary: #ffffff;
+$surface-secondary: #f6f5ed;
+$surface-inverse: hsla(0, 0%, 10%, 1);
+$text-primary: hsla(0, 0%, 0%, 0.85);
+$text-secondary: hsla(0, 0%, 0%, 0.6);
+$text-inverse-primary: hsla(0, 0%, 100%, 0.85);
+$text-inverse-secondary: hsla(0, 0%, 100%, 0.6);
+
+.primary {
+  background-color: $surface-primary;
+  color: $text-primary;
+  p {
+    color: $text-secondary;
+  }
+}
+.secondary {
+  background-color: $surface-secondary;
+  color: $text-primary;
+  p {
+    color: $text-secondary;
+  }
+}
+.inverse {
+  background-color: $surface-inverse;
+  color: $text-inverse-primary;
+  p {
+    color: $text-inverse-secondary;
+    font-weight: 300;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+h1 {
+  font-size: 4rem;
+  line-height: 4.5rem;
+  font-weight: 600;
+}
+h2 {
+  font-size: 3.5rem;
+  line-height: 4rem;
+}
+h3 {
+  font-size: 3rem;
+  line-height: 3.5rem;
+}
+h4 {
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
+h5 {
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+h6 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+}
