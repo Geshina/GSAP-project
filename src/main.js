@@ -3,6 +3,14 @@ import Lenis from "@studio-freight/lenis";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import SplitType from "split-type";
+import App from "./App.svelte";
+
+// Svelte
+const app = new App({
+  target: document.body,
+  props: {},
+});
+export default app;
 
 // Lenis
 const lenis = new Lenis();
@@ -22,14 +30,13 @@ requestAnimationFrame(raf);
 gsap.registerPlugin(ScrollTrigger);
 
 // split-type
-const SplitTypes = document.querySelectorAll(".text-reveal");
+// const SplitTypes = document.querySelectorAll(".text-reveal");
 
-SplitTypes.forEach((char, i) => {
-  const text = new SplitType(char, {
-    types: "chars,words",
-  });
+// SplitTypes.forEach((char, i) => {
+//   const text = new SplitType(char, {
+//     types: "chars,words",
+//   });
 
-  // GSAP
-  gsap.from(text.chars, {
-  });
-});
+//   // GSAP
+//   gsap.from(text.chars, {});
+// });
