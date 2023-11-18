@@ -1,5 +1,8 @@
 @use "scss/var.scss" as *;
 
+.gap-xs {
+  gap: 0.5rem;
+}
 .gap-sm {
   gap: 1rem;
 }

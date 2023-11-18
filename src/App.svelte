@@ -1,6 +1,8 @@
 <script>
+  import Cards_1 from "./Components/Cards_1.svelte";
   import Fold from "./Components/Fold.svelte";
-  import TopBar from "./TopBar.svelte";
+  import Title from "./Components/Title.svelte";
+  import TopBar from "./Components/TopBar.svelte";
 </script>
 
 <link rel="stylesheet" href="reset.css" />
@@ -10,11 +12,16 @@
 <link rel="stylesheet" href="scss/utils.scss" />
 
 <link
-rel="stylesheet"
-href="fontawesome-free-6.4.2-web\fontawesome-free-6.4.2-web\css\all.min.css"
+  rel="stylesheet"
+  href="fontawesome-free-6.4.2-web\fontawesome-free-6.4.2-web\css\all.min.css"
 />
 
 <main>
-  <TopBar/>
-  <Fold/>
+  <TopBar />
+  <Fold />
+
+  <section>
+    <Title />
+    <Cards_1 />
+  </section>
 </main>

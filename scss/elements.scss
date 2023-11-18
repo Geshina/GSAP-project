@@ -1,5 +1,10 @@
 @use "scss/var.scss" as *;
 
+
+// Elements.scss is going to be deleted
+// this is temporary, clean up the mess
+
+
 body {
   background-color: $surface-primary;
 }
@@ -17,9 +22,16 @@ button {
   padding: 0.75rem 2.5rem;
   border-radius: 1px;
   border: none;
-  background-color: $accent;
+  background-color: $accent;  
   p {
     font-weight: 500 !important;
     color: $text-primary !important;
   }
+}
+section{
+  padding-block: 8rem;
+}
+// Figure out aspect ratio and img cont
+img {
+  background-color: $accent;
 }

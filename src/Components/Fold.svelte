@@ -1,4 +1,4 @@
-<div class="fold primary">
+<div class="fold inverse">
   <div class="cont flex-vert justify-between padd-vert-lg">
     <header class="flex justify-between align-center">
       <h4>LOGO</h4>
@@ -18,12 +18,11 @@
       </h1>
       <div class="span-2" />
       <div class="span-4 flex-vert gap-sm">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur,
-          illum rerum iste sapiente ad nostrum molestiae labore. Inventore,
-          voluptatibus esse optio in necessitatibus officia quidem, quae
-          obcaecati quos ipsam voluptatem?
-        </p>
+        <h6>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut qui
+          asperiores placeat commodi enim dolor, unde praesentium reprehenderit
+          repellat temporibus.
+        </h6>
         <div class="flex gap-sm">
           <button>
             <h6>Primary</h6>

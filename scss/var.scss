@@ -13,7 +13,10 @@ $text-inverse-secondary: hsla(0, 0%, 100%, 0.6);
 .primary {
   background-color: $surface-primary;
   color: $text-primary;
-  p {
+  h5,
+  h6,
+  p
+  {
     color: $text-secondary;
   }
 }
@@ -61,12 +64,12 @@ h4 {
   line-height: 3rem;
 }
 h5 {
-  font-size: 2rem;
-  line-height: 2.5rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 h6 {
   font-size: 1.125rem;
-  line-height: 1.75rem;
+  line-height: 1.625rem;
 }
 p {
   font-size: 1rem;
