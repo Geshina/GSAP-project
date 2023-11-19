@@ -29,9 +29,12 @@ button {
   }
 }
 section{
-  padding-block: 8rem;
+  padding-block: 6rem;
 }
 // Figure out aspect ratio and img cont
 img {
-  background-color: $accent;
+  background-color: $surface-secondary;
+  aspect-ratio: 3/2;
+  max-width: 100%;
+  height: auto;
 }

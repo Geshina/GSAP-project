@@ -24,4 +24,7 @@
     <Title />
     <Cards_1 />
   </section>
+
+  <section>
+  </section>
 </main>

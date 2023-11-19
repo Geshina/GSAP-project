@@ -1,4 +1,4 @@
-<div class="cont primary padd-vert-md">
+<div class="cont primary padd-vert-lg">
   <h5>Premium Quality</h5>
-  <h1>Lorem, ipsum dolor.</h1>
-</div>
+  <h2>Lorem, ipsum dolor.</h2>
+</div>  
