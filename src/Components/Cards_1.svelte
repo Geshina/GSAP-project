@@ -1,4 +1,4 @@
-<div class="cont primary grid">
+<div class="cont-85 grid">
   <div class="span-4 flex-vert gap-xs">
     <img src="" alt="" />
     <h5>Lorem, ipsum.</h5>

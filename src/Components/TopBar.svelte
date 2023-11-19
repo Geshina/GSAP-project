@@ -1,5 +1,5 @@
 <div class="top-bar inverse">
-  <div class="cont flex align-center justify-between">
+  <div class="cont-full flex align-center justify-between">
     <div class="flex gap-md">
       <p>lorem Ipsum</p>
       <p>lorem Ipsum</p>

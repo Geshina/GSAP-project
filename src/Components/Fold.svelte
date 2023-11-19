@@ -1,5 +1,5 @@
 <div class="fold inverse">
-  <div class="cont flex-vert justify-between padd-vert-lg">
+  <div class="cont-full flex-vert justify-between padd-vert-lg">
     <header class="flex justify-between align-center">
       <h4>LOGO</h4>
       <div class="flex gap-md align-center">
