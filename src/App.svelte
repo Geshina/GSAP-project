@@ -1,8 +1,10 @@
 <script>
+  import Banner from "./Components/Banner.svelte";
   import Cards_1 from "./Components/Cards_1.svelte";
   import Fold from "./Components/Fold.svelte";
   import Grid from "./Components/Grid.svelte";
   import ImgOverlap from "./Components/ImgOverlap.svelte";
+  import Numbers from "./Components/Numbers.svelte";
   import TextBlock from "./Components/TextBlock.svelte";
   import Title from "./Components/Title.svelte";
   import TopBar from "./Components/TopBar.svelte";
@@ -23,15 +25,22 @@
   <TopBar />
   <Fold />
 
-  <section class="primary">
+  <section class="primary gap-lg">
     <Title />
     <Cards_1 />
   </section>
 
-  <section class="secondary">
+  <section class="secondary gap-xl">
     <Grid>
       <TextBlock />
       <ImgOverlap />
+      <Numbers />
     </Grid>
+  </section>
+
+  <Banner />
+
+  <section class="secondary">
+    
   </section>
 </main>

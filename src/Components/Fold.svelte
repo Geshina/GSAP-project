@@ -1,5 +1,5 @@
 <div class="fold inverse">
-  <div class="cont-full flex-vert justify-between padd-vert-lg">
+  <div class="cont-full flex-vert justify-between padd-vert-md">
     <header class="flex justify-between align-center">
       <h4>LOGO</h4>
       <div class="flex gap-md align-center">
@@ -12,7 +12,7 @@
       </div>
     </header>
 
-    <div class="grid padd-vert-xl">
+    <div class="grid padd-vert-lg">
       <h1 class="span-6">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit.
       </h1>

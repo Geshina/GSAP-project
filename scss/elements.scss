@@ -13,7 +13,7 @@ body {
   margin: 0px auto;
 }
 .cont-85 {
-  width: 86vw;
+  width: 80vw;
   margin: 0px auto;
 }
 .top-bar > * {
@@ -34,11 +34,13 @@ button {
 }
 section{
   padding-block: 8rem;
+  display: flex;
+  flex-direction: column;
 }
 // Figure out aspect ratio and img cont
 img {
   background-color: $surface-secondary;
   aspect-ratio: 3/2;
-  max-width: 100%;
+  width: 100%;
   height: auto;
-}
+} 
