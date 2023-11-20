@@ -1,4 +1,4 @@
-<div class="span-6 flex-vert gap-md">
+<div class="span-6 flex-vert gap-md align-self-center">
   <div>
     <h5>Lorem ipsum dolor sit amet consectetur.</h5>
     <h2>Lorem ipsum dolor sit.</h2>

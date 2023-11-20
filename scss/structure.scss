@@ -3,7 +3,7 @@
 .grid {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  gap: 10rem 2rem;
+  gap: 6rem 2rem;
 }
 .grid > * {
   grid-column: span 12;
@@ -32,4 +32,7 @@
 }
 .align-center {
   align-items: center;
+}
+.align-self-center{
+  align-self: center;
 }
