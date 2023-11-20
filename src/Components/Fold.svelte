@@ -6,7 +6,7 @@
         <h6>Placeholder</h6>
         <h6>Placeholder</h6>
         <h6>Placeholder</h6>
-        <button>
+        <button class="btn-accent ">
           <h6>Primary</h6>
         </button>
       </div>
@@ -24,10 +24,10 @@
           repellat temporibus.
         </h6>
         <div class="flex gap-sm">
-          <button>
+          <button class="btn-inverse">
             <h6>Primary</h6>
           </button>
-          <button>
+          <button class="btn-primary">
             <h6>Secondary</h6>
           </button>
         </div>

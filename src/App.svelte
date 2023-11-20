@@ -11,8 +11,9 @@
 </script>
 
 <link rel="stylesheet" href="reset.css" />
-<link rel="stylesheet" href="/scss/elements.scss" />
+<link rel="stylesheet" href="/scss/colorways.scss">
 <link rel="stylesheet" href="scss/var.scss" />
+<link rel="stylesheet" href="/scss/elements.scss" />
 <link rel="stylesheet" href="/scss/structure.scss" />
 <link rel="stylesheet" href="scss/utils.scss" />
 

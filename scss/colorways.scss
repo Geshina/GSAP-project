@@ -1,0 +1,72 @@
+@use "scss/var.scss" as *;
+
+.primary {
+  background-color: $surface-primary;
+  color: $text-primary;
+  h5,
+  h6,
+  p {
+    color: $text-secondary;
+  }
+}
+.btn-primary {
+  background-color: transparent;
+  outline: 1px solid $surface-primary;
+  outline-offset: -2px;
+  h5,
+  h6,
+  p {
+    color: $text-inverse-primary !important;
+  }
+}
+
+.secondary {
+  background-color: $surface-secondary;
+  color: $text-primary;
+  h5,
+  h6,
+  p {
+    color: $text-secondary;
+  }
+}
+.btn-secondary {
+  background-color: transparent;
+  outline: 2px solid $surface-inverse;
+  outline-offset: -2px;
+  h5,
+  h6,
+  p {
+    color: $surface-inverse !important;
+  }
+}
+
+.accent {
+  background-color: $accent;
+  color: $text-primary;
+  h5,
+  h6,
+  p {
+    color: $text-secondary;
+  }
+}
+.btn-accent {
+  background-color: $accent;
+  color: $text-primary;
+  h5,
+  h6,
+  p {
+    color: $text-primary;
+  }
+}
+
+.inverse {
+  background-color: $surface-inverse;
+  color: $text-inverse-primary;
+  p {
+    color: $text-inverse-secondary;
+  }
+}
+.btn-inverse {
+  background-color: $surface-inverse;
+  color: $text-inverse-primary;
+}

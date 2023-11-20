@@ -10,6 +10,6 @@
     commodi omnis.
   </p>
   <div>
-    <button><h6>primary</h6></button>
+    <button class="btn-accent"><h6>Primary</h6></button>
   </div>
 </div>
