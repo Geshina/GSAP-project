@@ -8,14 +8,6 @@
 body {
   background-color: $surface-primary;
 }
-.cont-full {
-  width: 92vw;
-  margin: 0px auto;
-}
-.cont-85 {
-  width: 84vw;
-  margin: 0px auto;
-}
 .top-bar > * {
   height: 5vh;
 }
@@ -39,7 +31,4 @@ section{
 // Figure out aspect ratio and img cont
 img {
   background-color: $surface-secondary;
-  aspect-ratio: 3/2;
-  width: 100%;
-  height: auto;
 } 

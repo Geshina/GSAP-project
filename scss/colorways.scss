@@ -68,5 +68,9 @@
 }
 .btn-inverse {
   background-color: $surface-inverse;
-  color: $text-inverse-primary;
+  h5,
+  h6,
+  p {
+    color: $text-inverse-primary;
+  }
 }

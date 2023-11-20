@@ -1,5 +1,24 @@
 @use "scss/var.scss" as *;
 
+.cont-primary {
+  width: 92vw;
+  max-width: 1920px;
+  margin: 0px auto;
+}
+.cont-primary-inverse{
+  max-width: 1920px;
+  margin-inline: 4vw;
+}
+.cont-secondary {
+  width: 84vw;
+  max-width: 1920px;
+  margin: 0px auto;
+}
+.cont-secondary-inverse{
+  max-width: 1920px;
+  margin-inline: 8vw;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -20,6 +39,8 @@
 .span-2 {
   grid-column: span 2;
 }
+
+// FLEX
 .flex {
   display: flex;
 }

@@ -1,3 +1,3 @@
-<div class="cont-85 grid">
+<div class="cont-secondary-inverse grid">
   <slot></slot>
 </div>

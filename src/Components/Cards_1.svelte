@@ -1,6 +1,6 @@
-<div class="cont-85 grid">
+<div class="cont-secondary grid">
   <div class="span-4 flex-vert gap-xs">
-    <img src="" alt="" />
+    <img src="" alt="" class="aspect-3-2" />
     <h6>Lorem, ipsum.</h6>
     <h4>Lorem ipsum dolor sit.</h4>
     <p>
@@ -10,7 +10,7 @@
   </div>
 
   <div class="span-4 flex-vert gap-xs">
-    <img src="" alt="" />
+    <img src="" alt="" class="aspect-3-2" />
     <h6>Lorem, ipsum.</h6>
     <h4>Lorem ipsum dolor sit.</h4>
     <p>
@@ -20,7 +20,7 @@
   </div>
 
   <div class="span-4 flex-vert gap-xs">
-    <img src="" alt="" />
+    <img src="" alt="" class="aspect-3-2" />
     <h6>Lorem, ipsum.</h6>
     <h4>Lorem ipsum dolor sit.</h4>
     <p>
