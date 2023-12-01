@@ -46,7 +46,7 @@
   <section class="secondary">
     <Grid>
       <TextHorizontal />
-      <Carousel/>
     </Grid>
+    <Carousel/>
   </section>
 </main>
